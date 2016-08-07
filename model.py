@@ -47,10 +47,6 @@ class Brand(db.Model):
         return "<Brand Details id=%s name=%s founded=%s headquarters=%s discontinued=%s>" % (self.id, self.name, self.founded, self.headquarters, self.discontinued)
 
     
-
-
-
-
 # End Part 1
 
 
